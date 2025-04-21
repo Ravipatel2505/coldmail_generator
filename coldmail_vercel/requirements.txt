@@ -1,0 +1,8 @@
+flask
+pandas
+chromadb
+langchain
+langchain-groq
+langchain-community
+beautifulsoup4
+onnxruntime

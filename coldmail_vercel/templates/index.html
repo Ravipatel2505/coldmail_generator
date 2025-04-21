@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cold Mail Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cold Mail Generator</h1>
+        <form method="POST">
+            <label for="job_url">Enter Job Posting URL</label>
+            <input type="text" id="job_url" name="job_url" placeholder="https://careers.nike.com/..." required>
+            <button type="submit">Generate Cold Mail</button>
+        </form>
+    </div>
+</body>
+</html>
